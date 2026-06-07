@@ -105,6 +105,7 @@ const helper = css({
   minWidth: '100px',
   display: 'flex',
   justifyContent: 'center',
+  alignItems: 'center',
 })
 
 const items = css({
@@ -120,18 +121,18 @@ const items = css({
 })
 
 const imageFrame = css({
+  borderRadius: '30px',
+  maxHeight: '100%',
+  maxWidth: '100%',
+  zIndex: 50,
+  position: 'relative',
+});
+const imageBackground = css({
   position: 'absolute',
   top: '0px',
   bottom: '0px',
   right: '0px',
   left: '0px',
-  borderRadius: '30px',
-  objectFit: 'contain',
-  width: '100%',
-  height: '100%',
-  zIndex: 50,
-});
-const imageBackground = css({
   zIndex: 0,
   filter: 'blur(200px) brightness(0.7)',
   borderRadius: '30px',
