@@ -10,9 +10,9 @@ export const text = cva({
             tag: { fontSize: 14 },
             description: { fontSize: 16 },
             label: { fontSize: 18 },
-            subtitle: { fontSize: 24 },
-            title: { fontSize: 30 },
-            mega: { fontSize: 40 },
+            subtitle: { fontSize: { base: 20, md: 24 } },
+            title: { fontSize: { base: 24, md: 30 } },
+            mega: { fontSize: { base: 30, md: 40 } },
         },
         weight: {
             100: { fontWeight: 100 },

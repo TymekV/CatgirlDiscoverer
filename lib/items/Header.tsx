@@ -21,11 +21,12 @@ export default function Header({ onButtonClick }: { onButtonClick: () => void })
 
 const container = css({
     display: 'flex',
+    flexDirection: { base: 'column', md: 'row' },
     // height: '150px',
     justifyContent: 'space-between',
     alignItems: 'center',
-    gap: '40px',
-    padding: '30px 40px',
+    gap: { base: '20px', md: '40px' },
+    padding: { base: '20px', md: '30px 40px' },
     position: 'relative',
 })
 
