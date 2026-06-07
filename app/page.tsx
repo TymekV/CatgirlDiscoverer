@@ -100,7 +100,7 @@ const container = css({
 
 const helper = css({
   position: 'relative',
-  height: { base: '50vh', md: '100%' },
+  height: { base: '50dvh', md: '100%' },
   width: '100%',
   minWidth: '100px',
   display: 'flex',
